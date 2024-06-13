@@ -1,0 +1,256 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+119 M     Trainable params
+45.8 M    Non-trainable params
+165 M     Total params
+661.708   Total estimated model params size (MB)
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `val_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+
+Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+
+
+
+Epoch 0: 100%|██████████| 19/19 [00:04<00:00,  4.32it/s, v_num=kaj4, train_loss_step=3.000, train_acc_step=0.0909]
+
+
+
+Epoch 1: 100%|██████████| 19/19 [00:04<00:00,  4.04it/s, v_num=kaj4, train_loss_step=2.230, train_acc_step=0.364, valid_loss_step=2.480, valid_acc_step=0.333, valid_loss_epoch=2.480, valid_acc_epoch=0.333, valid_loss=2.480, valid_acc=0.333, train_loss_epoch=3.340, train_acc_epoch=0.102]
+
+
+
+Epoch 2: 100%|██████████| 19/19 [00:05<00:00,  3.75it/s, v_num=kaj4, train_loss_step=1.790, train_acc_step=0.455, valid_loss_step=1.600, valid_acc_step=0.733, valid_loss_epoch=1.600, valid_acc_epoch=0.733, valid_loss=1.600, valid_acc=0.733, train_loss_epoch=2.370, train_acc_epoch=0.375]
+
+
+
+Epoch 3: 100%|██████████| 19/19 [00:04<00:00,  4.02it/s, v_num=kaj4, train_loss_step=0.672, train_acc_step=0.818, valid_loss_step=1.150, valid_acc_step=0.700, valid_loss_epoch=1.150, valid_acc_epoch=0.700, valid_loss=1.150, valid_acc=0.700, train_loss_epoch=1.740, train_acc_epoch=0.543]
+
+
+
+
+
+Epoch 4: 100%|██████████| 19/19 [00:05<00:00,  3.79it/s, v_num=kaj4, train_loss_step=1.200, train_acc_step=0.545, valid_loss_step=1.010, valid_acc_step=0.767, valid_loss_epoch=1.010, valid_acc_epoch=0.767, valid_loss=1.010, valid_acc=0.767, train_loss_epoch=1.460, train_acc_epoch=0.586]
+
+
+
+Epoch 5: 100%|██████████| 19/19 [00:04<00:00,  3.86it/s, v_num=kaj4, train_loss_step=1.550, train_acc_step=0.545, valid_loss_step=0.927, valid_acc_step=0.733, valid_loss_epoch=0.927, valid_acc_epoch=0.733, valid_loss=0.927, valid_acc=0.733, train_loss_epoch=1.340, train_acc_epoch=0.617]
+
+
+
+Epoch 6: 100%|██████████| 19/19 [00:04<00:00,  3.92it/s, v_num=kaj4, train_loss_step=2.110, train_acc_step=0.364, valid_loss_step=0.868, valid_acc_step=0.800, valid_loss_epoch=0.868, valid_acc_epoch=0.800, valid_loss=0.868, valid_acc=0.800, train_loss_epoch=1.320, train_acc_epoch=0.629]
+
+
+
+Epoch 7: 100%|██████████| 19/19 [00:04<00:00,  3.90it/s, v_num=kaj4, train_loss_step=1.350, train_acc_step=0.636, valid_loss_step=0.876, valid_acc_step=0.767, valid_loss_epoch=0.876, valid_acc_epoch=0.767, valid_loss=0.876, valid_acc=0.767, train_loss_epoch=1.240, train_acc_epoch=0.610]
+
+
+
+Epoch 8: 100%|██████████| 19/19 [00:04<00:00,  3.87it/s, v_num=kaj4, train_loss_step=1.410, train_acc_step=0.545, valid_loss_step=0.747, valid_acc_step=0.800, valid_loss_epoch=0.747, valid_acc_epoch=0.800, valid_loss=0.747, valid_acc=0.800, train_loss_epoch=1.190, train_acc_epoch=0.639]
+
+
+
+
+Epoch 9: 100%|██████████| 19/19 [00:04<00:00,  3.88it/s, v_num=kaj4, train_loss_step=1.500, train_acc_step=0.636, valid_loss_step=0.900, valid_acc_step=0.767, valid_loss_epoch=0.900, valid_acc_epoch=0.767, valid_loss=0.900, valid_acc=0.767, train_loss_epoch=1.100, train_acc_epoch=0.670]
+
+
+
+
+Epoch 10: 100%|██████████| 19/19 [00:04<00:00,  3.97it/s, v_num=kaj4, train_loss_step=1.150, train_acc_step=0.636, valid_loss_step=0.782, valid_acc_step=0.767, valid_loss_epoch=0.782, valid_acc_epoch=0.767, valid_loss=0.782, valid_acc=0.767, train_loss_epoch=0.978, train_acc_epoch=0.710]
+
+
+Epoch 10: 100%|██████████| 19/19 [00:10<00:00,  1.84it/s, v_num=kaj4, train_loss_step=1.150, train_acc_step=0.636, valid_loss_step=0.917, valid_acc_step=0.700, valid_loss_epoch=0.917, valid_acc_epoch=0.700, valid_loss=0.917, valid_acc=0.700, train_loss_epoch=1.010, train_acc_epoch=0.704]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `test_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+
+
+Testing DataLoader 0: 100%|██████████| 3/3 [00:01<00:00,  1.89it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\callbacks\model_checkpoint.py:653: Checkpoint directory .\Proyecto3\6x25kaj4\checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+119 M     Trainable params
+45.8 M    Non-trainable params
+165 M     Total params
+
+
+Epoch 0: 100%|██████████| 19/19 [00:04<00:00,  4.34it/s, v_num=kaj4, train_loss_step=2.600, train_acc_step=0.364]
+
+
+
+Epoch 1: 100%|██████████| 19/19 [00:05<00:00,  3.78it/s, v_num=kaj4, train_loss_step=2.290, train_acc_step=0.364, valid_loss_step=2.440, valid_acc_step=0.333, valid_loss_epoch=2.440, valid_acc_epoch=0.333, valid_loss=2.440, valid_acc=0.333, train_loss_epoch=3.270, train_acc_epoch=0.101]
+
+
+
+
+Epoch 2: 100%|██████████| 19/19 [00:04<00:00,  3.84it/s, v_num=kaj4, train_loss_step=1.760, train_acc_step=0.455, valid_loss_step=1.590, valid_acc_step=0.633, valid_loss_epoch=1.590, valid_acc_epoch=0.633, valid_loss=1.590, valid_acc=0.633, train_loss_epoch=2.410, train_acc_epoch=0.358]
+
+
+
+Epoch 3: 100%|██████████| 19/19 [00:04<00:00,  4.09it/s, v_num=kaj4, train_loss_step=1.200, train_acc_step=0.727, valid_loss_step=1.220, valid_acc_step=0.600, valid_loss_epoch=1.220, valid_acc_epoch=0.600, valid_loss=1.220, valid_acc=0.600, train_loss_epoch=1.810, train_acc_epoch=0.492]
+
+
+
+
+Epoch 4: 100%|██████████| 19/19 [00:04<00:00,  3.89it/s, v_num=kaj4, train_loss_step=0.982, train_acc_step=0.727, valid_loss_step=1.030, valid_acc_step=0.700, valid_loss_epoch=1.030, valid_acc_epoch=0.700, valid_loss=1.030, valid_acc=0.700, train_loss_epoch=1.600, train_acc_epoch=0.540]
+
+
+
+Epoch 5: 100%|██████████| 19/19 [00:04<00:00,  3.90it/s, v_num=kaj4, train_loss_step=1.300, train_acc_step=0.727, valid_loss_step=0.967, valid_acc_step=0.700, valid_loss_epoch=0.967, valid_acc_epoch=0.700, valid_loss=0.967, valid_acc=0.700, train_loss_epoch=1.370, train_acc_epoch=0.615]
+
+
+
+Epoch 6: 100%|██████████| 19/19 [00:04<00:00,  3.89it/s, v_num=kaj4, train_loss_step=0.891, train_acc_step=0.818, valid_loss_step=0.879, valid_acc_step=0.667, valid_loss_epoch=0.879, valid_acc_epoch=0.667, valid_loss=0.879, valid_acc=0.667, train_loss_epoch=1.210, train_acc_epoch=0.661]
+
+
+
+Epoch 7: 100%|██████████| 19/19 [00:04<00:00,  3.83it/s, v_num=kaj4, train_loss_step=0.993, train_acc_step=0.818, valid_loss_step=0.989, valid_acc_step=0.733, valid_loss_epoch=0.989, valid_acc_epoch=0.733, valid_loss=0.989, valid_acc=0.733, train_loss_epoch=1.130, train_acc_epoch=0.675]
+
+
+
+Epoch 8: 100%|██████████| 19/19 [00:04<00:00,  3.85it/s, v_num=kaj4, train_loss_step=1.700, train_acc_step=0.364, valid_loss_step=0.930, valid_acc_step=0.667, valid_loss_epoch=0.930, valid_acc_epoch=0.667, valid_loss=0.930, valid_acc=0.667, train_loss_epoch=1.060, train_acc_epoch=0.692]
+
+
+
+
+Epoch 9: 100%|██████████| 19/19 [00:04<00:00,  3.95it/s, v_num=kaj4, train_loss_step=1.060, train_acc_step=0.455, valid_loss_step=0.835, valid_acc_step=0.700, valid_loss_epoch=0.835, valid_acc_epoch=0.700, valid_loss=0.835, valid_acc=0.700, train_loss_epoch=1.100, train_acc_epoch=0.673]
+
+
+
+
+Epoch 10: 100%|██████████| 19/19 [00:04<00:00,  3.95it/s, v_num=kaj4, train_loss_step=0.876, train_acc_step=0.636, valid_loss_step=0.875, valid_acc_step=0.700, valid_loss_epoch=0.875, valid_acc_epoch=0.700, valid_loss=0.875, valid_acc=0.700, train_loss_epoch=1.050, train_acc_epoch=0.697]
+
+
+
+
+Epoch 11: 100%|██████████| 19/19 [00:04<00:00,  3.82it/s, v_num=kaj4, train_loss_step=0.502, train_acc_step=0.818, valid_loss_step=0.943, valid_acc_step=0.733, valid_loss_epoch=0.943, valid_acc_epoch=0.733, valid_loss=0.943, valid_acc=0.733, train_loss_epoch=1.000, train_acc_epoch=0.702]
+
+
+Epoch 11: 100%|██████████| 19/19 [00:10<00:00,  1.83it/s, v_num=kaj4, train_loss_step=0.502, train_acc_step=0.818, valid_loss_step=0.930, valid_acc_step=0.700, valid_loss_epoch=0.930, valid_acc_epoch=0.700, valid_loss=0.930, valid_acc=0.700, train_loss_epoch=1.030, train_acc_epoch=0.676]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+
+Testing DataLoader 0: 100%|██████████| 3/3 [00:01<00:00,  2.90it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\loggers\wandb.py:391: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+119 M     Trainable params
+45.8 M    Non-trainable params
+165 M     Total params
+661.708   Total estimated model params size (MB)
+
+
+Epoch 0: 100%|██████████| 19/19 [00:04<00:00,  4.42it/s, v_num=kaj4, train_loss_step=2.930, train_acc_step=0.182]
+
+
+
+Epoch 1: 100%|██████████| 19/19 [00:05<00:00,  3.75it/s, v_num=kaj4, train_loss_step=2.240, train_acc_step=0.364, valid_loss_step=2.480, valid_acc_step=0.300, valid_loss_epoch=2.480, valid_acc_epoch=0.300, valid_loss=2.480, valid_acc=0.300, train_loss_epoch=3.330, train_acc_epoch=0.107]
+
+
+
+Epoch 2: 100%|██████████| 19/19 [00:05<00:00,  3.75it/s, v_num=kaj4, train_loss_step=2.290, train_acc_step=0.364, valid_loss_step=1.580, valid_acc_step=0.600, valid_loss_epoch=1.580, valid_acc_epoch=0.600, valid_loss=1.580, valid_acc=0.600, train_loss_epoch=2.390, train_acc_epoch=0.371]
+
+
+
+
+Epoch 3: 100%|██████████| 19/19 [00:05<00:00,  3.70it/s, v_num=kaj4, train_loss_step=1.830, train_acc_step=0.545, valid_loss_step=1.240, valid_acc_step=0.633, valid_loss_epoch=1.240, valid_acc_epoch=0.633, valid_loss=1.240, valid_acc=0.633, train_loss_epoch=1.820, train_acc_epoch=0.509]
+
+
+
+Epoch 4: 100%|██████████| 19/19 [00:04<00:00,  3.82it/s, v_num=kaj4, train_loss_step=1.860, train_acc_step=0.455, valid_loss_step=1.060, valid_acc_step=0.667, valid_loss_epoch=1.060, valid_acc_epoch=0.667, valid_loss=1.060, valid_acc=0.667, train_loss_epoch=1.610, train_acc_epoch=0.523]
+
+
+
+Epoch 5: 100%|██████████| 19/19 [00:05<00:00,  3.75it/s, v_num=kaj4, train_loss_step=0.613, train_acc_step=0.818, valid_loss_step=0.950, valid_acc_step=0.733, valid_loss_epoch=0.950, valid_acc_epoch=0.733, valid_loss=0.950, valid_acc=0.733, train_loss_epoch=1.340, train_acc_epoch=0.637]
+
+
+
+Epoch 6: 100%|██████████| 19/19 [00:04<00:00,  4.05it/s, v_num=kaj4, train_loss_step=0.919, train_acc_step=0.727, valid_loss_step=0.954, valid_acc_step=0.733, valid_loss_epoch=0.954, valid_acc_epoch=0.733, valid_loss=0.954, valid_acc=0.733, train_loss_epoch=1.230, train_acc_epoch=0.641]
+
+
+
+Epoch 7: 100%|██████████| 19/19 [00:04<00:00,  3.83it/s, v_num=kaj4, train_loss_step=1.020, train_acc_step=0.727, valid_loss_step=0.935, valid_acc_step=0.700, valid_loss_epoch=0.935, valid_acc_epoch=0.700, valid_loss=0.935, valid_acc=0.700, train_loss_epoch=1.230, train_acc_epoch=0.632]
+
+
+
+Epoch 8: 100%|██████████| 19/19 [00:04<00:00,  4.09it/s, v_num=kaj4, train_loss_step=0.605, train_acc_step=0.818, valid_loss_step=0.947, valid_acc_step=0.733, valid_loss_epoch=0.947, valid_acc_epoch=0.733, valid_loss=0.947, valid_acc=0.733, train_loss_epoch=1.090, train_acc_epoch=0.678]
+
+
+
+Epoch 9: 100%|██████████| 19/19 [00:04<00:00,  3.99it/s, v_num=kaj4, train_loss_step=0.865, train_acc_step=0.727, valid_loss_step=0.870, valid_acc_step=0.700, valid_loss_epoch=0.870, valid_acc_epoch=0.700, valid_loss=0.870, valid_acc=0.700, train_loss_epoch=1.020, train_acc_epoch=0.709]
+
+
+
+Epoch 10: 100%|██████████| 19/19 [00:04<00:00,  3.87it/s, v_num=kaj4, train_loss_step=1.030, train_acc_step=0.727, valid_loss_step=0.937, valid_acc_step=0.733, valid_loss_epoch=0.937, valid_acc_epoch=0.733, valid_loss=0.937, valid_acc=0.733, train_loss_epoch=0.979, train_acc_epoch=0.705]
+
+
+
+
+Epoch 11: 100%|██████████| 19/19 [00:04<00:00,  3.84it/s, v_num=kaj4, train_loss_step=1.640, train_acc_step=0.636, valid_loss_step=0.863, valid_acc_step=0.733, valid_loss_epoch=0.863, valid_acc_epoch=0.733, valid_loss=0.863, valid_acc=0.733, train_loss_epoch=0.947, train_acc_epoch=0.710]
+
+
+
+
+Epoch 12: 100%|██████████| 19/19 [00:04<00:00,  3.88it/s, v_num=kaj4, train_loss_step=1.030, train_acc_step=0.727, valid_loss_step=0.835, valid_acc_step=0.733, valid_loss_epoch=0.835, valid_acc_epoch=0.733, valid_loss=0.835, valid_acc=0.733, train_loss_epoch=0.963, train_acc_epoch=0.727]
+
+
+
+Epoch 13: 100%|██████████| 19/19 [00:04<00:00,  4.11it/s, v_num=kaj4, train_loss_step=1.330, train_acc_step=0.636, valid_loss_step=0.816, valid_acc_step=0.733, valid_loss_epoch=0.816, valid_acc_epoch=0.733, valid_loss=0.816, valid_acc=0.733, train_loss_epoch=0.969, train_acc_epoch=0.738]
+
+
+
+Epoch 14: 100%|██████████| 19/19 [00:04<00:00,  4.05it/s, v_num=kaj4, train_loss_step=1.230, train_acc_step=0.727, valid_loss_step=0.908, valid_acc_step=0.733, valid_loss_epoch=0.908, valid_acc_epoch=0.733, valid_loss=0.908, valid_acc=0.733, train_loss_epoch=0.819, train_acc_epoch=0.744]
+
+
+
+
+Epoch 15: 100%|██████████| 19/19 [00:04<00:00,  4.07it/s, v_num=kaj4, train_loss_step=0.761, train_acc_step=0.818, valid_loss_step=0.811, valid_acc_step=0.767, valid_loss_epoch=0.811, valid_acc_epoch=0.767, valid_loss=0.811, valid_acc=0.767, train_loss_epoch=0.840, train_acc_epoch=0.758]
+
+
+
+
+Epoch 16: 100%|██████████| 19/19 [00:04<00:00,  3.85it/s, v_num=kaj4, train_loss_step=0.569, train_acc_step=0.727, valid_loss_step=0.794, valid_acc_step=0.767, valid_loss_epoch=0.794, valid_acc_epoch=0.767, valid_loss=0.794, valid_acc=0.767, train_loss_epoch=0.920, train_acc_epoch=0.724]
+
+
+
+Epoch 17: 100%|██████████| 19/19 [00:04<00:00,  3.91it/s, v_num=kaj4, train_loss_step=1.680, train_acc_step=0.455, valid_loss_step=0.799, valid_acc_step=0.767, valid_loss_epoch=0.799, valid_acc_epoch=0.767, valid_loss=0.799, valid_acc=0.767, train_loss_epoch=0.794, train_acc_epoch=0.744]
+
+
+
+Epoch 18: 100%|██████████| 19/19 [00:04<00:00,  4.16it/s, v_num=kaj4, train_loss_step=0.191, train_acc_step=1.000, valid_loss_step=0.886, valid_acc_step=0.733, valid_loss_epoch=0.886, valid_acc_epoch=0.733, valid_loss=0.886, valid_acc=0.733, train_loss_epoch=0.794, train_acc_epoch=0.770]
+
+
+Epoch 18: 100%|██████████| 19/19 [00:09<00:00,  1.94it/s, v_num=kaj4, train_loss_step=0.191, train_acc_step=1.000, valid_loss_step=0.837, valid_acc_step=0.767, valid_loss_epoch=0.837, valid_acc_epoch=0.767, valid_loss=0.837, valid_acc=0.767, train_loss_epoch=0.800, train_acc_epoch=0.758]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+

@@ -1,0 +1,201 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+119 M     Trainable params
+45.8 M    Non-trainable params
+165 M     Total params
+661.708   Total estimated model params size (MB)
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `val_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+
+Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]
+
+
+
+
+Epoch 0: 100%|██████████| 55/55 [00:05<00:00, 10.75it/s, v_num=sjtu, train_loss_step=3.340, train_acc_step=0.000]
+
+
+
+
+Epoch 1: 100%|██████████| 55/55 [00:16<00:00,  3.38it/s, v_num=sjtu, train_loss_step=3.290, train_acc_step=0.000, valid_loss_step=1.140, valid_acc_step=0.750, valid_loss_epoch=1.270, valid_acc_epoch=0.733, valid_loss=2.410, valid_acc=0.375, train_loss_epoch=2.710, train_acc_epoch=0.255]
+
+
+
+
+Epoch 2: 100%|██████████| 55/55 [00:16<00:00,  3.37it/s, v_num=sjtu, train_loss_step=1.570, train_acc_step=0.500, valid_loss_step=0.872, valid_acc_step=0.786, valid_loss_epoch=0.934, valid_acc_epoch=0.733, valid_loss=1.910, valid_acc=0.496, train_loss_epoch=1.660, train_acc_epoch=0.523]
+
+
+
+
+
+Epoch 3: 100%|██████████| 55/55 [00:16<00:00,  3.35it/s, v_num=sjtu, train_loss_step=2.680, train_acc_step=0.500, valid_loss_step=1.050, valid_acc_step=0.750, valid_loss_epoch=0.878, valid_acc_epoch=0.767, valid_loss=1.660, valid_acc=0.563, train_loss_epoch=1.450, train_acc_epoch=0.580]
+
+
+
+
+
+
+Epoch 4: 100%|██████████| 55/55 [00:16<00:00,  3.36it/s, v_num=sjtu, train_loss_step=1.260, train_acc_step=0.500, valid_loss_step=0.887, valid_acc_step=0.857, valid_loss_epoch=0.790, valid_acc_epoch=0.833, valid_loss=1.490, valid_acc=0.617, train_loss_epoch=1.240, train_acc_epoch=0.628]
+
+
+
+
+
+Epoch 5: 100%|██████████| 55/55 [00:16<00:00,  3.33it/s, v_num=sjtu, train_loss_step=0.756, train_acc_step=0.750, valid_loss_step=0.978, valid_acc_step=0.750, valid_loss_epoch=0.801, valid_acc_epoch=0.783, valid_loss=1.370, valid_acc=0.645, train_loss_epoch=1.200, train_acc_epoch=0.645]
+
+
+
+
+
+
+Epoch 6: 100%|██████████| 55/55 [00:16<00:00,  3.35it/s, v_num=sjtu, train_loss_step=1.020, train_acc_step=0.500, valid_loss_step=0.519, valid_acc_step=0.821, valid_loss_epoch=0.757, valid_acc_epoch=0.817, valid_loss=1.280, valid_acc=0.669, train_loss_epoch=1.140, train_acc_epoch=0.658]
+
+
+
+
+
+Epoch 7: 100%|██████████| 55/55 [00:16<00:00,  3.36it/s, v_num=sjtu, train_loss_step=0.159, train_acc_step=1.000, valid_loss_step=0.433, valid_acc_step=0.893, valid_loss_epoch=0.725, valid_acc_epoch=0.817, valid_loss=1.210, valid_acc=0.688, train_loss_epoch=1.040, train_acc_epoch=0.690]
+
+
+
+
+
+
+Epoch 8: 100%|██████████| 55/55 [00:16<00:00,  3.38it/s, v_num=sjtu, train_loss_step=1.060, train_acc_step=0.750, valid_loss_step=0.710, valid_acc_step=0.821, valid_loss_epoch=0.821, valid_acc_epoch=0.817, valid_loss=1.170, valid_acc=0.703, train_loss_epoch=1.060, train_acc_epoch=0.678]
+
+
+
+
+
+Epoch 9: 100%|██████████| 55/55 [00:15<00:00,  3.46it/s, v_num=sjtu, train_loss_step=1.830, train_acc_step=0.250, valid_loss_step=0.331, valid_acc_step=0.893, valid_loss_epoch=0.753, valid_acc_epoch=0.800, valid_loss=1.120, valid_acc=0.713, train_loss_epoch=1.040, train_acc_epoch=0.686]
+
+
+
+
+Epoch 10: 100%|██████████| 55/55 [00:15<00:00,  3.47it/s, v_num=sjtu, train_loss_step=0.905, train_acc_step=0.500, valid_loss_step=0.738, valid_acc_step=0.857, valid_loss_epoch=0.675, valid_acc_epoch=0.833, valid_loss=1.080, valid_acc=0.724, train_loss_epoch=1.020, train_acc_epoch=0.691]
+
+
+
+
+Epoch 11: 100%|██████████| 55/55 [00:15<00:00,  3.45it/s, v_num=sjtu, train_loss_step=1.530, train_acc_step=0.750, valid_loss_step=0.690, valid_acc_step=0.821, valid_loss_epoch=0.700, valid_acc_epoch=0.817, valid_loss=1.050, valid_acc=0.732, train_loss_epoch=0.967, train_acc_epoch=0.706]
+
+
+
+
+
+Epoch 12: 100%|██████████| 55/55 [00:16<00:00,  3.43it/s, v_num=sjtu, train_loss_step=1.440, train_acc_step=0.500, valid_loss_step=0.974, valid_acc_step=0.786, valid_loss_epoch=0.698, valid_acc_epoch=0.833, valid_loss=1.020, valid_acc=0.739, train_loss_epoch=0.987, train_acc_epoch=0.694]
+
+
+
+
+
+Epoch 13: 100%|██████████| 55/55 [00:16<00:00,  3.43it/s, v_num=sjtu, train_loss_step=1.890, train_acc_step=0.500, valid_loss_step=0.357, valid_acc_step=0.893, valid_loss_epoch=0.721, valid_acc_epoch=0.783, valid_loss=1.000, valid_acc=0.743, train_loss_epoch=0.880, train_acc_epoch=0.736]
+
+
+
+
+Epoch 14: 100%|██████████| 55/55 [00:15<00:00,  3.44it/s, v_num=sjtu, train_loss_step=2.160, train_acc_step=0.250, valid_loss_step=0.454, valid_acc_step=0.857, valid_loss_epoch=0.724, valid_acc_epoch=0.833, valid_loss=0.982, valid_acc=0.749, train_loss_epoch=0.870, train_acc_epoch=0.730]
+
+
+
+
+Epoch 15: 100%|██████████| 55/55 [00:16<00:00,  3.39it/s, v_num=sjtu, train_loss_step=1.540, train_acc_step=0.500, valid_loss_step=0.334, valid_acc_step=0.929, valid_loss_epoch=0.656, valid_acc_epoch=0.850, valid_loss=0.960, valid_acc=0.756, train_loss_epoch=0.839, train_acc_epoch=0.731]
+
+
+
+
+
+
+Epoch 16: 100%|██████████| 55/55 [00:16<00:00,  3.42it/s, v_num=sjtu, train_loss_step=0.439, train_acc_step=0.750, valid_loss_step=0.454, valid_acc_step=0.929, valid_loss_epoch=0.642, valid_acc_epoch=0.867, valid_loss=0.941, valid_acc=0.762, train_loss_epoch=0.823, train_acc_epoch=0.748]
+
+
+
+
+
+Epoch 17: 100%|██████████| 55/55 [00:15<00:00,  3.46it/s, v_num=sjtu, train_loss_step=0.506, train_acc_step=1.000, valid_loss_step=0.682, valid_acc_step=0.786, valid_loss_epoch=0.664, valid_acc_epoch=0.833, valid_loss=0.926, valid_acc=0.766, train_loss_epoch=0.876, train_acc_epoch=0.726]
+
+
+
+
+Epoch 18: 100%|██████████| 55/55 [00:15<00:00,  3.46it/s, v_num=sjtu, train_loss_step=0.147, train_acc_step=1.000, valid_loss_step=1.020, valid_acc_step=0.786, valid_loss_epoch=0.621, valid_acc_epoch=0.850, valid_loss=0.911, valid_acc=0.770, train_loss_epoch=0.802, train_acc_epoch=0.758]
+
+
+
+
+Epoch 19: 100%|██████████| 55/55 [00:16<00:00,  3.41it/s, v_num=sjtu, train_loss_step=0.242, train_acc_step=1.000, valid_loss_step=0.662, valid_acc_step=0.821, valid_loss_epoch=0.607, valid_acc_epoch=0.833, valid_loss=0.896, valid_acc=0.774, train_loss_epoch=0.806, train_acc_epoch=0.758]
+
+
+
+
+
+
+Epoch 20: 100%|██████████| 55/55 [00:16<00:00,  3.37it/s, v_num=sjtu, train_loss_step=3.180, train_acc_step=0.250, valid_loss_step=0.406, valid_acc_step=0.893, valid_loss_epoch=0.628, valid_acc_epoch=0.833, valid_loss=0.882, valid_acc=0.777, train_loss_epoch=0.743, train_acc_epoch=0.768]
+
+
+
+
+
+
+Epoch 21: 100%|██████████| 55/55 [00:16<00:00,  3.40it/s, v_num=sjtu, train_loss_step=0.824, train_acc_step=0.750, valid_loss_step=0.501, valid_acc_step=0.786, valid_loss_epoch=0.645, valid_acc_epoch=0.833, valid_loss=0.871, valid_acc=0.779, train_loss_epoch=0.731, train_acc_epoch=0.773]
+
+
+
+
+
+Epoch 22: 100%|██████████| 55/55 [00:16<00:00,  3.43it/s, v_num=sjtu, train_loss_step=0.929, train_acc_step=0.750, valid_loss_step=0.612, valid_acc_step=0.857, valid_loss_epoch=0.670, valid_acc_epoch=0.833, valid_loss=0.862, valid_acc=0.781, train_loss_epoch=0.747, train_acc_epoch=0.768]
+
+
+
+
+
+Epoch 23: 100%|██████████| 55/55 [00:16<00:00,  3.39it/s, v_num=sjtu, train_loss_step=1.120, train_acc_step=0.500, valid_loss_step=0.547, valid_acc_step=0.857, valid_loss_epoch=0.690, valid_acc_epoch=0.833, valid_loss=0.855, valid_acc=0.784, train_loss_epoch=0.748, train_acc_epoch=0.789]
+
+
+
+
+
+Epoch 24: 100%|██████████| 55/55 [00:16<00:00,  3.41it/s, v_num=sjtu, train_loss_step=0.957, train_acc_step=0.500, valid_loss_step=0.453, valid_acc_step=0.821, valid_loss_epoch=0.635, valid_acc_epoch=0.833, valid_loss=0.846, valid_acc=0.786, train_loss_epoch=0.726, train_acc_epoch=0.783]
+
+
+
+
+Epoch 25: 100%|██████████| 55/55 [00:16<00:00,  3.42it/s, v_num=sjtu, train_loss_step=1.280, train_acc_step=0.750, valid_loss_step=0.935, valid_acc_step=0.786, valid_loss_epoch=0.713, valid_acc_epoch=0.817, valid_loss=0.841, valid_acc=0.787, train_loss_epoch=0.695, train_acc_epoch=0.791]
+
+
+
+
+
+
+Epoch 26: 100%|██████████| 55/55 [00:16<00:00,  3.43it/s, v_num=sjtu, train_loss_step=0.151, train_acc_step=1.000, valid_loss_step=0.906, valid_acc_step=0.750, valid_loss_epoch=0.733, valid_acc_epoch=0.817, valid_loss=0.837, valid_acc=0.788, train_loss_epoch=0.746, train_acc_epoch=0.768]
+
+
+
+
+
+Epoch 27: 100%|██████████| 55/55 [00:15<00:00,  3.45it/s, v_num=sjtu, train_loss_step=0.491, train_acc_step=0.750, valid_loss_step=0.375, valid_acc_step=0.893, valid_loss_epoch=0.710, valid_acc_epoch=0.817, valid_loss=0.832, valid_acc=0.789, train_loss_epoch=0.729, train_acc_epoch=0.784]
+
+
+
+
+
+Epoch 28: 100%|██████████| 55/55 [00:16<00:00,  3.41it/s, v_num=sjtu, train_loss_step=3.100, train_acc_step=0.250, valid_loss_step=0.981, valid_acc_step=0.750, valid_loss_epoch=0.679, valid_acc_epoch=0.817, valid_loss=0.827, valid_acc=0.790, train_loss_epoch=0.661, train_acc_epoch=0.789]
+
+
+
+
+
+Epoch 29: 100%|██████████| 55/55 [00:16<00:00,  3.39it/s, v_num=sjtu, train_loss_step=1.020, train_acc_step=0.750, valid_loss_step=0.704, valid_acc_step=0.821, valid_loss_epoch=0.640, valid_acc_epoch=0.817, valid_loss=0.821, valid_acc=0.791, train_loss_epoch=0.661, train_acc_epoch=0.797]
+
+
+
+Epoch 29: 100%|██████████| 55/55 [00:21<00:00,  2.53it/s, v_num=sjtu, train_loss_step=1.020, train_acc_step=0.750, valid_loss_step=0.664, valid_acc_step=0.786, valid_loss_epoch=0.641, valid_acc_epoch=0.817, valid_loss=0.816, valid_acc=0.791, train_loss_epoch=0.713, train_acc_epoch=0.784]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `test_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+
+

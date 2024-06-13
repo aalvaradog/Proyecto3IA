@@ -1,0 +1,42 @@
+2024-06-12 19:32:14,228 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-06-12 19:32:14,228 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Configure stats pid to 39204
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Loading settings from C:\Users\tian_\.config\wandb\settings
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Loading settings from c:\Users\tian_\Desktop\GitHub\Proyecto3IA\wandb\settings
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-12 19:32:14,229 INFO    MainThread:39204 [wandb_init.py:_log_setup():527] Logging user logs to .\wandb\run-20240612_193214-6x25kaj4\logs\debug.log
+2024-06-12 19:32:14,230 INFO    MainThread:39204 [wandb_init.py:_log_setup():528] Logging internal logs to .\wandb\run-20240612_193214-6x25kaj4\logs\debug-internal.log
+2024-06-12 19:32:14,230 INFO    MainThread:39204 [wandb_init.py:_jupyter_setup():473] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001F116E8F110>
+2024-06-12 19:32:14,230 INFO    MainThread:39204 [wandb_init.py:init():567] calling init triggers
+2024-06-12 19:32:14,230 INFO    MainThread:39204 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {}
+2024-06-12 19:32:14,230 INFO    MainThread:39204 [wandb_init.py:init():617] starting backend
+2024-06-12 19:32:14,230 INFO    MainThread:39204 [wandb_init.py:init():621] setting up manager
+2024-06-12 19:32:14,235 INFO    MainThread:39204 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-06-12 19:32:14,236 INFO    MainThread:39204 [wandb_init.py:init():629] backend started and connected
+2024-06-12 19:32:14,240 INFO    MainThread:39204 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-06-12 19:32:14,241 INFO    MainThread:39204 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-12 19:32:14,241 INFO    MainThread:39204 [wandb_init.py:init():721] updated telemetry
+2024-06-12 19:32:14,241 INFO    MainThread:39204 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-06-12 19:32:15,122 INFO    MainThread:39204 [wandb_run.py:_on_init():2344] communicating current version
+2024-06-12 19:32:15,901 INFO    MainThread:39204 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.17.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-12 19:32:15,901 INFO    MainThread:39204 [wandb_init.py:init():805] starting run threads in backend
+2024-06-12 19:32:16,149 INFO    MainThread:39204 [wandb_run.py:_console_start():2323] atexit reg
+2024-06-12 19:32:16,149 INFO    MainThread:39204 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-06-12 19:32:16,149 INFO    MainThread:39204 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-06-12 19:32:16,149 INFO    MainThread:39204 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-06-12 19:32:16,150 INFO    MainThread:39204 [wandb_init.py:init():848] run started, returning control to user process
+2024-06-12 19:34:21,239 INFO    MainThread:39204 [wandb_run.py:_config_callback():1347] config_cb ('_wandb', 'visualize', 'test_confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'test_confusion_matrix_table'}], 'fields': []}]}]}}} None
+2024-06-12 19:34:22,939 INFO    MainThread:39204 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-12 19:34:22,939 INFO    MainThread:39204 [wandb_init.py:_pause_backend():438] pausing backend
+2024-06-12 19:37:49,319 INFO    MainThread:39204 [wandb_init.py:_resume_backend():443] resuming backend
+2024-06-12 19:40:03,501 INFO    MainThread:39204 [wandb_run.py:_config_callback():1347] config_cb ('_wandb', 'visualize', 'test_confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'test_confusion_matrix_table'}], 'fields': []}]}]}}} None
+2024-06-12 19:40:04,562 INFO    MainThread:39204 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-12 19:40:04,562 INFO    MainThread:39204 [wandb_init.py:_pause_backend():438] pausing backend
+2024-06-12 19:42:53,597 INFO    MainThread:39204 [wandb_init.py:_resume_backend():443] resuming backend
+2024-06-12 19:46:19,405 INFO    MainThread:39204 [wandb_run.py:_config_callback():1347] config_cb ('_wandb', 'visualize', 'test_confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'test_confusion_matrix_table'}], 'fields': []}]}]}}} None
+2024-06-12 19:46:20,495 INFO    MainThread:39204 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-12 19:46:20,495 INFO    MainThread:39204 [wandb_init.py:_pause_backend():438] pausing backend

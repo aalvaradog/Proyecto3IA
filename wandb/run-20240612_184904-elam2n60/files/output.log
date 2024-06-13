@@ -1,0 +1,15 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+119 M     Trainable params
+45.8 M    Non-trainable params
+165 M     Total params
+661.708   Total estimated model params size (MB)
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `val_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+
+

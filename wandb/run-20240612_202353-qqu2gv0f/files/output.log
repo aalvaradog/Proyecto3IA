@@ -1,0 +1,75 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+150 M     Trainable params
+14.7 M    Non-trainable params
+165 M     Total params
+661.708   Total estimated model params size (MB)
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `val_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+
+Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+
+
+
+Epoch 0:  95%|█████████▍| 18/19 [00:06<00:00,  2.75it/s, v_num=gv0f, train_loss_step=3.040, train_acc_step=0.250]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\torch\autograd\graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\native\cudnn\Conv_v8.cpp:919.)
+Epoch 0: 100%|██████████| 19/19 [00:06<00:00,  2.77it/s, v_num=gv0f, train_loss_step=2.400, train_acc_step=0.455]
+
+
+
+
+Epoch 1: 100%|██████████| 19/19 [00:06<00:00,  2.74it/s, v_num=gv0f, train_loss_step=1.990, train_acc_step=0.364, valid_loss_step=2.400, valid_acc_step=0.467, valid_loss_epoch=2.400, valid_acc_epoch=0.467, valid_loss=2.400, valid_acc=0.467, train_loss_epoch=3.340, train_acc_epoch=0.109]
+
+
+
+
+
+Epoch 2: 100%|██████████| 19/19 [00:07<00:00,  2.70it/s, v_num=gv0f, train_loss_step=2.150, train_acc_step=0.364, valid_loss_step=1.620, valid_acc_step=0.500, valid_loss_epoch=1.620, valid_acc_epoch=0.500, valid_loss=1.620, valid_acc=0.500, train_loss_epoch=2.390, train_acc_epoch=0.370]
+
+
+
+
+Epoch 3: 100%|██████████| 19/19 [00:07<00:00,  2.68it/s, v_num=gv0f, train_loss_step=1.580, train_acc_step=0.545, valid_loss_step=1.220, valid_acc_step=0.667, valid_loss_epoch=1.220, valid_acc_epoch=0.667, valid_loss=1.220, valid_acc=0.667, train_loss_epoch=1.900, train_acc_epoch=0.470]
+
+
+
+
+
+Epoch 4: 100%|██████████| 19/19 [00:07<00:00,  2.61it/s, v_num=gv0f, train_loss_step=0.834, train_acc_step=0.818, valid_loss_step=1.000, valid_acc_step=0.700, valid_loss_epoch=1.000, valid_acc_epoch=0.700, valid_loss=1.000, valid_acc=0.700, train_loss_epoch=1.480, train_acc_epoch=0.584]
+
+
+
+
+
+Epoch 5: 100%|██████████| 19/19 [00:07<00:00,  2.61it/s, v_num=gv0f, train_loss_step=1.300, train_acc_step=0.545, valid_loss_step=0.921, valid_acc_step=0.700, valid_loss_epoch=0.921, valid_acc_epoch=0.700, valid_loss=0.921, valid_acc=0.700, train_loss_epoch=1.350, train_acc_epoch=0.625]
+
+
+
+
+Epoch 6: 100%|██████████| 19/19 [00:07<00:00,  2.59it/s, v_num=gv0f, train_loss_step=1.130, train_acc_step=0.818, valid_loss_step=0.876, valid_acc_step=0.700, valid_loss_epoch=0.876, valid_acc_epoch=0.700, valid_loss=0.876, valid_acc=0.700, train_loss_epoch=1.180, train_acc_epoch=0.688]
+
+
+
+
+Epoch 7: 100%|██████████| 19/19 [00:07<00:00,  2.65it/s, v_num=gv0f, train_loss_step=0.852, train_acc_step=0.818, valid_loss_step=0.921, valid_acc_step=0.733, valid_loss_epoch=0.921, valid_acc_epoch=0.733, valid_loss=0.921, valid_acc=0.733, train_loss_epoch=1.090, train_acc_epoch=0.685]
+
+
+
+
+
+Epoch 8: 100%|██████████| 19/19 [00:07<00:00,  2.67it/s, v_num=gv0f, train_loss_step=1.450, train_acc_step=0.455, valid_loss_step=0.959, valid_acc_step=0.700, valid_loss_epoch=0.959, valid_acc_epoch=0.700, valid_loss=0.959, valid_acc=0.700, train_loss_epoch=1.060, train_acc_epoch=0.692]
+
+
+Epoch 8: 100%|██████████| 19/19 [00:12<00:00,  1.50it/s, v_num=gv0f, train_loss_step=1.450, train_acc_step=0.455, valid_loss_step=0.933, valid_acc_step=0.733, valid_loss_epoch=0.933, valid_acc_epoch=0.733, valid_loss=0.933, valid_acc=0.733, train_loss_epoch=1.040, train_acc_epoch=0.676]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `test_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+
+
+

@@ -1,0 +1,74 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | autoencoder | UNetAutoencoder  | 31.0 M
+1 | model       | VGG              | 134 M
+2 | criterion   | CrossEntropyLoss | 0
+-------------------------------------------------
+119 M     Trainable params
+45.8 M    Non-trainable params
+165 M     Total params
+661.708   Total estimated model params size (MB)
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `val_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+
+Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]
+
+
+
+Epoch 0: 100%|██████████| 55/55 [00:04<00:00, 11.13it/s, v_num=d4zf, train_loss_step=1.800, train_acc_step=0.500]
+
+
+
+
+Epoch 1: 100%|██████████| 55/55 [00:16<00:00,  3.42it/s, v_num=d4zf, train_loss_step=2.160, train_acc_step=0.250, valid_loss_step=1.180, valid_acc_step=0.786, valid_loss_epoch=1.310, valid_acc_epoch=0.700, valid_loss=1.300, valid_acc=0.705, train_loss_epoch=2.670, train_acc_epoch=0.271]
+
+
+
+
+
+
+Epoch 2: 100%|██████████| 55/55 [00:16<00:00,  3.37it/s, v_num=d4zf, train_loss_step=0.533, train_acc_step=1.000, valid_loss_step=0.806, valid_acc_step=0.786, valid_loss_epoch=1.000, valid_acc_epoch=0.750, valid_loss=0.992, valid_acc=0.752, train_loss_epoch=1.650, train_acc_epoch=0.527]
+
+
+
+
+
+Epoch 3: 100%|██████████| 55/55 [00:16<00:00,  3.38it/s, v_num=d4zf, train_loss_step=1.380, train_acc_step=0.750, valid_loss_step=0.834, valid_acc_step=0.786, valid_loss_epoch=0.825, valid_acc_epoch=0.800, valid_loss=0.826, valid_acc=0.799, train_loss_epoch=1.440, train_acc_epoch=0.581]
+
+
+
+
+
+Epoch 4: 100%|██████████| 55/55 [00:16<00:00,  3.40it/s, v_num=d4zf, train_loss_step=0.418, train_acc_step=1.000, valid_loss_step=0.791, valid_acc_step=0.786, valid_loss_epoch=0.800, valid_acc_epoch=0.817, valid_loss=0.800, valid_acc=0.815, train_loss_epoch=1.260, train_acc_epoch=0.625]
+
+
+
+
+
+Epoch 5: 100%|██████████| 55/55 [00:16<00:00,  3.34it/s, v_num=d4zf, train_loss_step=1.260, train_acc_step=0.750, valid_loss_step=0.913, valid_acc_step=0.714, valid_loss_epoch=0.759, valid_acc_epoch=0.800, valid_loss=0.769, valid_acc=0.795, train_loss_epoch=1.210, train_acc_epoch=0.640]
+
+
+
+
+
+Epoch 6: 100%|██████████| 55/55 [00:16<00:00,  3.40it/s, v_num=d4zf, train_loss_step=0.264, train_acc_step=1.000, valid_loss_step=0.815, valid_acc_step=0.786, valid_loss_epoch=0.667, valid_acc_epoch=0.833, valid_loss=0.676, valid_acc=0.830, train_loss_epoch=1.160, train_acc_epoch=0.659]
+
+
+
+
+
+Epoch 7: 100%|██████████| 55/55 [00:16<00:00,  3.42it/s, v_num=d4zf, train_loss_step=1.510, train_acc_step=0.750, valid_loss_step=0.625, valid_acc_step=0.786, valid_loss_epoch=0.696, valid_acc_epoch=0.767, valid_loss=0.691, valid_acc=0.768, train_loss_epoch=1.050, train_acc_epoch=0.686]
+
+
+
+
+Epoch 8: 100%|██████████| 55/55 [00:16<00:00,  3.39it/s, v_num=d4zf, train_loss_step=1.280, train_acc_step=0.250, valid_loss_step=0.774, valid_acc_step=0.786, valid_loss_epoch=0.724, valid_acc_epoch=0.817, valid_loss=0.727, valid_acc=0.815, train_loss_epoch=1.050, train_acc_epoch=0.686]
+
+
+Epoch 8: 100%|██████████| 55/55 [00:21<00:00,  2.52it/s, v_num=d4zf, train_loss_step=1.280, train_acc_step=0.250, valid_loss_step=0.518, valid_acc_step=0.929, valid_loss_epoch=0.689, valid_acc_epoch=0.850, valid_loss=0.679, valid_acc=0.855, train_loss_epoch=1.040, train_acc_epoch=0.687]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:492: Your `test_dataloader`'s sampler has shuffling enabled, it is strongly recommended that you turn shuffling off for val/test dataloaders.
+c:\Users\tian_\AppData\Local\anaconda3\envs\Pytorch_env\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:436: Consider setting `persistent_workers=True` in 'test_dataloader' to speed up the dataloader worker initialization.
+
+
